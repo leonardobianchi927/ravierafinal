@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0a0f0c">
+<title>RAVIERA GROUP | Área do Motorista</title>
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="tema.js"></script>
+</head>
+<body>
+<header class="top" id="top" hidden>
+  <a class="brand" href="#/"><img src="logo.png" alt="" width="40" height="40"><b>RAVIERA<span>GROUP</span></b></a>
+  <nav id="nav" aria-label="Seções"></nav>
+  <div class="acoes"><button class="tema" id="tema" type="button"></button><button class="mini" data-act="sair" type="button">Sair</button></div>
+</header>
+<div id="demo" class="demo" hidden>Modo demonstração: os dados são fictícios e ficam só neste navegador. Para usar dados reais, preencha <code>url</code> e <code>anonKey</code> em <code>config.js</code>.</div>
+<main id="view" class="wrap" aria-live="polite"></main>
+<div id="toast" class="toast" role="status"></div>
+<script src="config.js"></script>
+<script src="db.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
